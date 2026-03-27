@@ -11,6 +11,7 @@ vector<double> inputNumbers() {
 
     while (true) {
         cout << "You can use these numbers to perform a number of operations" << endl;
+        cout << "this menu was made by charlie richards as a practice for sorting and dynamic allocation, these tools actually may be useful lol" << endl;
         cout << "How many numbers do you want to store? ";
         cin >> vector_size;
         cout << endl;
@@ -193,6 +194,7 @@ int main() {
             test = inputNumbers();
         }
         else if (choice == 7) {
+            cout << "thank you for trying out my program!" << endl;
             cout << "\nExiting program. Goodbye!" << endl;
             break;
         }
